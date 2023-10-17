@@ -1,8 +1,11 @@
 <script lang="ts">
   import { Canvas } from "@threlte/core";
-  import Scene from "./scene.svelte";
+  import Scene from "./lib/scene.svelte";
+  import { World } from "@threlte/rapier";
 </script>
 
 <Canvas>
-  <Scene />
+  <World gravity={[0, 0, 0]}>
+    <Scene />
+  </World>
 </Canvas>
