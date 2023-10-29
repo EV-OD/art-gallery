@@ -15,7 +15,7 @@ This document contains certain rules and guidelines that developers are expected
 
     > `<Verb>: <Action>`
     
-    Verbs oftenly used are
+    Verbs often used are
 
     - add
     - feat
@@ -24,7 +24,7 @@ This document contains certain rules and guidelines that developers are expected
 
     ✅ **Examples of valid messages:**
 
-    -  add: serialisers.py for users app
+    -  add: serialisers.py for users' app
     -  feat: validation
     -  fix: functionality of authentication process
     - refactor: remove unwanted comments from src/auth.ts
@@ -32,7 +32,7 @@ This document contains certain rules and guidelines that developers are expected
     ❌ **Examples of invalid messages:**
 
     -   Idk why this is not working
-    -   Only ui bug fixes left
+    -   Only ui bug fixes are left
     -   All changes done, ready for production :)))
 
 -   Before opening a PR, make sure you squash all your commits into one single commit using `git rebase` (squash). Instead of having 50 commits that describe 1 feature implementation, there must be one commit that describes everything that has been done so far. You can read up about it [here](https://www.internalpointers.com/post/squash-commits-into-one-git).
