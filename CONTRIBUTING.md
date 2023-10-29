@@ -32,11 +32,11 @@ This document contains certain rules and guidelines that developers are expected
     ❌ **Examples of invalid messages:**
 
     -   Idk why this is not working
-    -   Only ui bug fixes are left
-    -   All changes done, ready for production :)))
+    -   Only UI bug fixes are left
+    -   All changes are done, ready for production :)))
 
 -   Before opening a PR, make sure you squash all your commits into one single commit using `git rebase` (squash). Instead of having 50 commits that describe 1 feature implementation, there must be one commit that describes everything that has been done so far. You can read up about it [here](https://www.internalpointers.com/post/squash-commits-into-one-git).
-    > NOTE: While squashing your commits to write a new one, do not make use of `-m` flag. In this case, a vim editor window shall open. Write a title for the commit within 50-70 characters, leave a line and add an understandable description.
+    > NOTE: While squashing your commits to write a new one, do not make use of `-m` flag. In this case, a vim editor window shall open. Write a title for the commit within 50-70 characters, leave a line, and add an understandable description.
 
 ## 3. Issues
 
